@@ -18,5 +18,20 @@ class Main {
       }
     };
     //we will play with compareTo here
+    // char c ='a';
+    // int code = (int)c;
+    // System.out.println(code);
+
+    // String s = "Dog";
+    // String s1 ="dog";
+    // String s2 = "doggy";
+
+    // int res = s1.compareTo(s);
+    // System.out.println(res);
+
+    // res = s1.compareTo(s2);
+    // System.out.println(res);
+    Collections.sort(words);
+    System.out.println(words);
   }
 }
