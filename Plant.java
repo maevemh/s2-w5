@@ -10,13 +10,14 @@ public class Plant{
           age = 0;
           this.name = name;
           height = 0;
-          this.species = species;
+          
           numplants++;
          
     }
 
     public String type(){
          return "I am a plant and my name is: " + this.name;
+         this.species = "";
     }
 
     public void increaseAge(int years){
